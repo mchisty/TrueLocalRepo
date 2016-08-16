@@ -61,8 +61,8 @@ As an addition, some interface could also be defined. However since this is simp
 	c) since every rover has two lines of commands, what if one line e.g. the co-ordination data is missing and only signal data is provided? 
 	c) what if the plateau if too big, the input signal is huge and there are huge number of repetitions (i.e. the idea of repeated matrix rotation)?   
 
-The above situations are not considered for the sake of simplicity (as part of this task). 
-However these issues can be considered and handled as per further business requirements.
+The above scenarios are not considered for the sake of simplicity (as part of this simple task). 
+However these issues can be handled as per further business requirements.
  
   
  
