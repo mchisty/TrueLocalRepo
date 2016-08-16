@@ -1,4 +1,3 @@
-
 package org.truelocal.model;
 
 import java.util.regex.Matcher;
@@ -50,7 +49,6 @@ public class RoboticRover {
 	 * Turn left.
 	 */
 	public void turnLeft() {
-
 		if (direction == Direction.NORTH) {
 			direction = Direction.WEST;
 		} else if (direction == Direction.WEST) {
@@ -66,7 +64,6 @@ public class RoboticRover {
 	 * Turn right.
 	 */
 	public void turnRight() {
-
 		if (direction == Direction.NORTH) {
 			direction = Direction.EAST;
 		} else if (direction == Direction.EAST) {
@@ -175,7 +172,6 @@ public class RoboticRover {
 	 * @return the pos x
 	 */
 	public int getPosX() {
-
 		return posX;
 	}
 
@@ -186,7 +182,6 @@ public class RoboticRover {
 	 *            the new pos x
 	 */
 	public void setPosX(int posX) {
-
 		this.posX = posX;
 	}
 
@@ -196,7 +191,6 @@ public class RoboticRover {
 	 * @return the pos y
 	 */
 	public int getPosY() {
-
 		return posY;
 	}
 
@@ -207,7 +201,6 @@ public class RoboticRover {
 	 *            the new pos y
 	 */
 	public void setPosY(int posY) {
-
 		this.posY = posY;
 	}
 
@@ -217,7 +210,6 @@ public class RoboticRover {
 	 * @return the current direction
 	 */
 	public Direction getCurrentDirection() {
-
 		return direction;
 	}
 
@@ -227,7 +219,6 @@ public class RoboticRover {
 	 * @return the current direction val
 	 */
 	public String getCurrentDirectionVal() {
-
 		return direction.getValue();
 	}
 
@@ -239,7 +230,6 @@ public class RoboticRover {
 	 *         instantiation
 	 */
 	public int getMaxX() {
-
 		return maxX;
 	}
 
@@ -251,7 +241,6 @@ public class RoboticRover {
 	 *         instantiation
 	 */
 	public int getMaxY() {
-
 		return maxY;
 	}
 
@@ -261,7 +250,6 @@ public class RoboticRover {
 	 * @return the result
 	 */
 	public String getResult() {
-
 		return result;
 	}
 
@@ -271,7 +259,6 @@ public class RoboticRover {
 	 * @return the input signal
 	 */
 	public String getInputSignal() {
-
 		return inputSignal;
 	}
 
@@ -282,7 +269,6 @@ public class RoboticRover {
 	 *            the new input signal
 	 */
 	public void setInputSignal(String inputSignal) {
-
 		this.inputSignal = inputSignal;
 	}
 
