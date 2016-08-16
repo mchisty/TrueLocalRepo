@@ -29,11 +29,21 @@ MarsRoverProj
 ================================================================================================
 How to run the program?
 ================================================================================================
-1. Checkout the project from Github or download as a zip and import into Eclipse
-2. Build the project
-3. Run MarsRoverClientSolution as a java application
 
-[Note]
+1. Clone the Truelocal's Git project into an empty directory using the following command,
+ git clone http://github.com/mchisty/TrueLocalRepo.git
+
+2. Open Eclipse, then
+- select File > Import > Existing Maven Projects  
+- select YOUR_NEW_DIRECTORY\TrueLocalRepo\MarsRoverProj (e.g. in my case, it was C:\MY_WORKSPACE\TrueLocalRepo\MarsRoverProj)
+- click Finish
+
+3. Build the project from Eclipse (if 'Project > Build Automatically' is already selected, then project will be built automatically)
+
+4. Right click MarsRoverClientSolution, select Run As > Java Application
+
+
+******************** Please Note ******************
 The input file is hard-coded as "input.txt" and should be under the directory "/MarsRoverProj/resources/". 
 
 
